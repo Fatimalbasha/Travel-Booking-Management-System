@@ -50,34 +50,29 @@ Travel Booking Management System is a comprehensive travel booking management sy
 
 The application follows a three-tier architecture:
 
-┌─────────────────────────────────────┐
-│     Presentation Layer (UI)         │
-│  - Login Frames                     │
-│  - Dashboard Frames                 │
-│  - Booking Frames                   │
-│  - Management Frames                │
-└─────────────────────────────────────┘
-↕
-┌─────────────────────────────────────┐
-│     Business Logic Layer            │
-│  - User (Admin, Passenger)          │
-│  - Ticket (Standard, VIP)           │
-│  - Booking, Transaction, Review     │
-└─────────────────────────────────────┘
-↕
-┌─────────────────────────────────────┐
-│     Data Access Layer (DAO)         │
-│  - UserDAO                          │
-│  - TicketDAO                        │
-│  - TransactionDAO                   │
-│  - ReviewDAO                        │
-└─────────────────────────────────────┘
-↕
-┌─────────────────────────────────────┐
-│        MySQL Database               │
-│  - users, tickets, bookings         │
-│  - schedules, reviews         │
-└─────────────────────────────────────┘
+```
+┌─────────────────────────────────────────────────────────────────────────┐
+│                        Presentation Layer (UI)                          │
+│  - Login Frames  │  - Dashboard Frames  │  - Booking Frames  │          │
+│  - Management Frames                                                    │
+└─────────────────────────────────────────────────────────────────────────┘
+                                    ↕
+┌─────────────────────────────────────────────────────────────────────────┐
+│                        Business Logic Layer                             │
+│  - User (Admin, Passenger)  │  - Ticket (Standard, VIP)  │              │
+│  - Booking, Transaction, Review                                         │
+└─────────────────────────────────────────────────────────────────────────┘
+                                    ↕
+┌─────────────────────────────────────────────────────────────────────────┐
+│                      Data Access Layer (DAO)                            │
+│  - UserDAO  │  - TicketDAO  │  - TransactionDAO  │  - ReviewDAO         │
+└─────────────────────────────────────────────────────────────────────────┘
+                                    ↕
+┌─────────────────────────────────────────────────────────────────────────┐
+│                          MySQL Database                                 │
+│  - users, tickets, bookings  │  - schedules, reviews                    │
+└─────────────────────────────────────────────────────────────────────────┘
+```
 
 
 
@@ -188,6 +183,7 @@ The application follows a three-tier architecture:
 
 ## Project Structure
 
+```
 TravelEase/
 ├── src/
 │   └── oopproject/
@@ -224,6 +220,7 @@ TravelEase/
 ├── screenshots/
 ├── database/
 │   └── schema.sql
-└──README.md
+└── README.md
+```
 
 
