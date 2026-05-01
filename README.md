@@ -117,7 +117,7 @@ The application follows a three-tier architecture:
 - `comment` (TEXT)
 - `user_id` (INT, Foreign Key → users.id)
 
-## 📥 Installation
+## Installation
 
 ### Prerequisites
 - Java Development Kit (JDK) 8 or higher
